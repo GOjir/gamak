@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Building2, Users, Utensils, CheckCircle2, ArrowRight, ShieldCheck, Award, Sparkles, Phone, Mail, Clock, ChevronRight } from 'lucide-react';
-import corporateDiningImg from '../assets/images/corporate_canteen_dining_1789189368978.jpg';
+import corporateDiningImg from './corporate_canteen_dining_1789189368978.jpg';
 
 interface CorporateSectionProps {
   onOpenCorporateInquiry: () => void;
