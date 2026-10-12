@@ -1,5 +1,5 @@
 import { Flame, Landmark, Sprout, HeartHandshake, Shield, Sparkles } from 'lucide-react';
-import ancientHeritageImg from '../assets/images/ancient_east_heritage_1789189350150.jpg';
+import ancientHeritageImg from './ancient_east_heritage_1789189350150.jpg';
 
 export function Philosophy() {
   return (
