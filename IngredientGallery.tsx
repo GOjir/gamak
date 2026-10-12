@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { INGREDIENTS_DATA } from '../data/ingredientsData';
+import { INGREDIENTS_DATA } from './ingredientsData';
 import { Ingredient } from '../types';
-import ingredientsImg from '../assets/images/gamak_ingredients_1789188608898.jpg';
+import ingredientsImg from './gamak_ingredients_1789188608898.jpg';
 import { Sparkles, MapPin, Wind, Flame } from 'lucide-react';
 
 export function IngredientGallery() {
