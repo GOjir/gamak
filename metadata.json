@@ -1,0 +1,6 @@
+{
+  "name": "Gamak — The Bihar Chapter",
+  "description": "Celebrating 5,000 years of ancient East Indian culinary heritage — rustic clay-pot slow cooking, native grains, and authentic food from Magadha, Mithila, and Champaran. Dine-in, delivery, and corporate canteen partnerships.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
