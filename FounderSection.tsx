@@ -1,7 +1,7 @@
 import React from 'react';
 import { Quote, Sparkles, Award, ShieldCheck, Mail, Building2 } from 'lucide-react';
 import { GamakLogo } from './GamakLogo';
-import founderImage from '../founder-image.jpg';
+import founderImage from './founder-image.jpg';
 
 interface FounderSectionProps {
   onOpenCorporateInquiry?: () => void;
