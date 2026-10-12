@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { MENU_ITEMS, MENU_CATEGORIES } from '.menuData';
+import { MENU_ITEMS, MENU_CATEGORIES } from './menuData';
 import { MenuItem } from '../types';
 import { Search, Flame, Sparkles, Filter, Leaf, Info, ArrowUpRight, Bike } from 'lucide-react';
 import littiPotImg from '../assets/images/gamak_litti_pot_1789188623797.jpg';
