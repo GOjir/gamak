@@ -1,4 +1,4 @@
-import kitchenFireImg from '../assets/images/gamak_kitchen_fire_1789188597660.jpg';
+import kitchenFireImg from './gamak_kitchen_fire_1789188597660.jpg';
 import { Flame, Clock, ShieldCheck, Heart } from 'lucide-react';
 
 export function KitchenSection() {
