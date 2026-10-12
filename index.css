@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Cormorant Garamond', Georgia, 'Times New Roman', serif;
+    --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+    /* Official Gamak Red - Dominant Brand Color #CA3232 */
+    --color-gamak-crimson: #CA3232;
+    --color-gamak-dark: #B22424;
+    --color-gamak-deep: #8E1B1B;
+    --color-gamak-tint: #FDF2F2;
+    --color-gamak-soft: #FDE8E8;
+    --color-gamak-border: #F7C8C8;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    background-color: #FAF4F0;
+    color: #261D1A;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom scrollbar with dominant brand red */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF4F0;
+}
+::-webkit-scrollbar-thumb {
+  background: #E8B4B4;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CA3232;
+}
