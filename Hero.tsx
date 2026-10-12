@@ -1,5 +1,5 @@
 import { ArrowDown, Flame, Building2, Landmark, Sparkles } from 'lucide-react';
-import heroHandiImg from '../assets/images/champaran_handi_sealed_1791463556801.jpg';
+import heroHandiImg from './champaran_handi_sealed_1791463556801.jpg';
 import { GamakLogo } from './GamakLogo';
 
 interface HeroProps {
