@@ -1,16 +1,16 @@
 import { useState } from 'react';
-import { Navbar } from './components/Navbar';
-import { Hero } from './components/Hero';
-import { Philosophy } from './components/Philosophy';
-import { IngredientGallery } from './components/IngredientGallery';
-import { MenuSection } from './components/MenuSection';
-import { KitchenSection } from './components/KitchenSection';
-import { CorporateSection } from './components/CorporateSection';
-import { FounderSection } from './components/FounderSection';
-import { PresenceSection } from './components/PresenceSection';
-import { Footer } from './components/Footer';
-import { DeliveryModal } from './components/DeliveryModal';
-import { CorporateInquiryModal } from './components/CorporateInquiryModal';
+import { Navbar } from './Navbar';
+import { Hero } from './Hero';
+import { Philosophy } from './Philosophy';
+import { IngredientGallery } from './IngredientGallery';
+import { MenuSection } from './MenuSection';
+import { KitchenSection } from './KitchenSection';
+import { CorporateSection } from './CorporateSection';
+import { FounderSection } from './FounderSection';
+import { PresenceSection } from './PresenceSection';
+import { Footer } from './Footer';
+import { DeliveryModal } from './DeliveryModal';
+import { CorporateInquiryModal } from './CorporateInquiryModal';
 
 export default function App() {
   const [isDeliveryOpen, setIsDeliveryOpen] = useState(false);
